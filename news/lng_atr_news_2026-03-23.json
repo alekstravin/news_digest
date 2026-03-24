@@ -15,7 +15,7 @@
     "source": "Financial Times / Business Today",
     "url": "https://www.businesstoday.in/world/story/global-lng-supply-faces-cliff-as-supply-from-west-asia-may-come-to-an-end-in-just-10-days-847253-2026-03-23",
     "analytical_commentary": "Пакистан критически уязвим из-за 99% зависимости от катарского газа. Это приведет к масштабным отключениям электроэнергии.",
-    "importance_score": 8
+    "importance_score": 9
   },
   {
     "title": "Бангладеш вводит нормирование газа и закрывает университеты из-за дефицита СПГ",
@@ -24,7 +24,7 @@
     "source": "Argus Media / Maritime Executive",
     "url": "https://maritime-executive.com/editorials/strike-on-ras-laffan-could-raise-lng-prices-for-years",
     "analytical_commentary": "Развивающиеся экономики Азии первыми ощущают удар по ценам, что вынуждает их возвращаться к углю.",
-    "importance_score": 6
+    "importance_score": 8
   },
   {
     "title": "Тайвань ищет замену поставкам СПГ для предотвращения сбоев в энергосистеме",
@@ -36,147 +36,417 @@
     "importance_score": 7
   },
   {
-    "title": "Япония и Южная Корея переходят на уголь и атомную энергию из-за шока на рынке СПГ",
-    "summary": "Крупнейшие импортеры Азии увеличивают угольную генерацию и перезапускают реакторы, чтобы компенсировать взлет цен на газ и нестабильность поставок.",
+    "title": "Япония и Южная Корея активируют запасы СПГ на фоне угрозы дефицита",
+    "summary": "Крупнейшие импортеры АТР начали использовать стратегические резервы. Правительства призывают компании экономить электроэнергию.",
     "date": "2026-03-23",
-    "source": "New York Times / Reuters",
-    "url": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html",
-    "analytical_commentary": "Переход на «чистую» энергию приостановлен ради прагматизма энергобезопасности. Спотовые цены на максимуме за 3 года.",
-    "importance_score": 4
-  },
-  {
-    "title": "Россия рассматривает перенаправление экспорта СПГ из Европы в страны АТР",
-    "summary": "Вице-премьер Новак заявил о планах по заключению долгосрочных контрактов с Индией, Таиландом, Филиппинами и Китаем, не дожидаясь новых санкций ЕС.",
-    "date": "2026-03-23",
-    "source": "ТАСС / Reuters",
-    "url": "https://www.reuters.com/business/energy/russia-weighs-redirecting-lng-exports-europe-asia-pacific-media-quote-novak-2026-03-06/",
-    "analytical_commentary": "Россия проактивно занимает рыночные ниши, освободившиеся из-за ближневосточного кризиса и европейских эмбарго. Стратегический поворот.",
-    "importance_score": 10
-  },
-  {
-    "title": "Экспортеры СПГ из США стали главными бенефициарами кризиса в Азии",
-    "summary": "Американские компании выигрывают от войны, так как азиатские страны ищут надежную альтернативу Катару. Администрация Трампа активно продвигает американский газ.",
-    "date": "2026-03-23",
-    "source": "Washington Post",
-    "url": "https://www.washingtonpost.com/world/2026/03/23/iran-war-us-lng-exports-taiwan-trump-asia-natural-gas/",
-    "analytical_commentary": "США используют кризис для закрепления роли доминирующего «безопасного» поставщика, несмотря на высокую цену. Прямая конкуренция с РФ.",
-    "importance_score": 7
-  },
-  {
-    "title": "Спотовые цены на СПГ в Азии взлетели на 68%, достигнув $25 за млн БТЕ",
-    "summary": "Индекс JKM показал рекордный дневной рост из-за конфликта США и Ирана и остановок в Катаре. Это максимальный уровень цен за последние три года.",
-    "date": "2026-03-23",
-    "source": "S&P Global Platts / Reuters",
-    "url": "https://www.reuters.com/business/energy/asia-lng-price-surge-opens-arbitrage-west-replace-qatari-supply-2026-03-04/",
-    "analytical_commentary": "Высокая волатильность делает СПГ рискованным товаром для развивающихся стран Азии. Рост доходов для российских спотовых продаж.",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/Business/Energy/Japan-and-South-Korea-tap-LNG-reserves",
+    "analytical_commentary": "Ситуация вынуждает страны пересматривать планы по отказу от атомной энергии.",
     "importance_score": 9
   },
   {
-    "title": "Южная Корея заявляет о стабильности поставок, несмотря на неопределенность с Катаром",
-    "summary": "Минпромторг Кореи утверждает, что катарский газ составляет лишь 14% импорта, и у страны есть альтернативные источники. Будет расширено использование угля и АЭС.",
+    "title": "Китай увеличивает закупки российского СПГ для замещения ближневосточных поставок",
+    "summary": "Китайские госкомпании перенаправляют танкеры с проектами 'Ямал СПГ' и 'Сахалин-2' в порты восточного побережья.",
     "date": "2026-03-23",
-    "source": "Straits Times",
-    "url": "https://www.straitstimes.com/asia/south-korea-flags-uncertainty-from-qatar-lng-plant-damage-but-downplays-supply-concerns",
-    "analytical_commentary": "Официальный оптимизм скрывает финансовое давление на энергокомпании (KEPCO) из-за сдерживания тарифов при росте цен на газ.",
-    "importance_score": 5
-  },
-  {
-    "title": "Япония использует стратегические резервы, но планирует спотовые закупки СПГ",
-    "summary": "Японские трейдеры намерены закупать спотовые партии для покрытия дефицита. У страны есть резервы нефти на 254 дня и газа на 3 недели.",
-    "date": "2026-03-23",
-    "source": "Reuters / Financial Times",
-    "url": "https://www.reuters.com/business/energy/asias-oil-lng-dependence-middle-east-2026-03-02/",
-    "analytical_commentary": "Диверсифицированная стратегия Японии дает буфер, но затяжной конфликт заставит экономить ресурсы. Сохранение «Сахалин-2» критично.",
-    "importance_score": 5
-  },
-  {
-    "title": "Китай запустит собственные фьючерсы на СПГ в юанях для влияния на рынок",
-    "summary": "Шанхайская биржа готовится запустить торговлю фьючерсами, чтобы создать локальный бенчмарк и снизить зависимость от JKM и Brent.",
-    "date": "2026-03-23",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/business/energy/china-offer-lng-futures-soon-next-month-sources-say-2026-01-23/",
-    "analytical_commentary": "Шаг к «газовому суверенитету». Китай хочет сам влиять на ценообразование. Совпадает с интересами РФ по дедолларизации торговли.",
-    "importance_score": 9
-  },
-  {
-    "title": "Новые терминалы СПГ во Вьетнаме и на Филиппинах проходят проверку высокими ценами",
-    "summary": "Недавно запущенные терминалы в ЮВА сталкиваются с проблемами из-за дорогого газа, что ставит под вопрос устойчивость их энергетических стратегий.",
-    "date": "2026-03-23",
-    "source": "Green Central Banking",
-    "url": "https://greencentralbanking.com/2026/03/09/clean-energy-not-lng-is-asias-best-hedge-against-energy-shocks/",
-    "analytical_commentary": "Концепция газа как переходного топлива под угрозой. Волатильность может ускорить инвестиции в ВИЭ в этом регионе.",
-    "importance_score": 6
-  },
-  {
-    "title": "Таиландская PTT подписала 5-летний контракт на поставку СПГ с Petronas",
-    "summary": "На фоне глобального хаоса региональное сотрудничество укрепляется: Таиланд обеспечил поставки из Малайзии с 2028 года.",
-    "date": "2026-03-23",
-    "source": "IEEJ / LNG Review",
-    "url": "https://eneken.ieej.or.jp/data/13096.pdf",
-    "analytical_commentary": "Внутрирегиональная торговля — способ повысить безопасность и снизить логистические риски из-за перекрытых проливов.",
-    "importance_score": 3
-  },
-  {
-    "title": "Трубопроводные поставки газа из РФ в Китай остаются стабильными на фоне кризиса СПГ",
-    "summary": "Поставки по «Силе Сибири-1» продолжают обеспечивать надежную базу для китайской промышленности, не завися от морских путей.",
-    "date": "2026-03-23",
-    "source": "CSIS / IEA",
-    "url": "https://www.csis.org/analysis/how-power-siberia-2-deal-could-reshape-global-energy",
-    "analytical_commentary": "Контраст между уязвимостью морского СПГ и стабильностью трубы очевиден. Это ускоряет переговоры по «Силе Сибири-2».",
-    "importance_score": 10
-  },
-  {
-    "title": "Австралия остается ключевым поставщиком СПГ для Японии, обеспечивая 40% нужд",
-    "summary": "Несмотря на глобальные шоки, австралийско-японский энергетический мост остается самым стабильным в регионе АТР.",
-    "date": "2026-03-23",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/business/energy/asias-oil-lng-dependence-middle-east-2026-03-02/",
-    "analytical_commentary": "Австралия — «якорь» энергобезопасности Японии. Любой сбой здесь был бы катастрофой для региона. Основной конкурент РФ в Японии.",
-    "importance_score": 4
-  },
-  {
-    "title": "Трансформация рынка СПГ 2026: от избытка к доминированию продавца",
-    "summary": "Ожидаемый профицит 2026 года сорван геополитикой. Цены остаются высокими, несмотря на ввод новых мощностей.",
-    "date": "2026-03-23",
-    "source": "Energy Tracker Asia / Wood Mackenzie",
-    "url": "https://energytracker.asia/lng-prices-in-2026/",
-    "analytical_commentary": "Период дешевого газа откладывается. У продавцов остается значительное влияние на условия долгосрочных контрактов.",
-    "importance_score": 9
-  },
-  {
-    "title": "Индия рассматривает возможность увеличения импорта российского СПГ",
-    "summary": "Индийские чиновники ищут пути замещения катарских объемов поставками из России после объявления форс-мажора QatarEnergy.",
-    "date": "2026-03-23",
-    "source": "Financial Times / ТАСС",
-    "url": "https://www.reuters.com/business/energy/russia-weighs-redirecting-lng-exports-europe-asia-pacific-media-quote-novak-2026-03-06/",
-    "analytical_commentary": "Возможность заключить долгосрочные сделки с самым быстрорастущим потребителем энергии в мире. Стратегический шанс для РФ.",
-    "importance_score": 10
-  },
-  {
-    "title": "Риски Ормузского пролива: Япония и Корея признаны самыми уязвимыми",
-    "summary": "Анализ показывает, что из-за отсутствия собственной добычи и труб Япония и Корея больше всех страдают от блокады морских путей.",
-    "date": "2026-03-23",
-    "source": "Zero Carbon Analytics",
-    "url": "https://zerocarbon-analytics.org/insights/briefings/asian-countries-most-at-risk-from-oil-and-gas-supply-disruptions-in-strait-of-hormuz",
-    "analytical_commentary": "Геополитический риск теперь постоянный фактор, повышающий ценность безопасных путей, таких как Севморпуть.",
+    "source": "Reuters / Global Times",
+    "url": "https://www.reuters.com/business/energy/china-boosts-russian-lng-imports-2026-03-23",
+    "analytical_commentary": "Россия укрепляет позиции на китайском рынке в условиях кризиса.",
     "importance_score": 8
   },
   {
-    "title": "KOGAS и JERA заключили соглашение о своп-поставках СПГ для борьбы с кризисом",
-    "summary": "Крупнейшие покупатели мира координируют объемы для обеспечения стабильности при перебоях на Ближнем Востоке.",
+    "title": "Индия приостанавливает тендеры на СПГ из-за заоблачных цен",
+    "summary": "GAIL и Petronet LNG отменили несколько закупочных тендеров, так как цены превысили $40 за MMBtu.",
     "date": "2026-03-23",
-    "source": "Chosun Biz",
-    "url": "https://biz.chosun.com/en/en-policy/2026/03/14/G3GCOGYWJFQLCEOGXXU3R4WAI/",
-    "analytical_commentary": "Покупатели объединяются, чтобы противостоять силе продавцов и оптимизировать логистику в фрагментированном рынке.",
-    "importance_score": 5
+    "source": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-pauses-lng-tenders",
+    "analytical_commentary": "Высокие цены могут привести к замедлению промышленного роста Индии.",
+    "importance_score": 7
   },
   {
-    "title": "Shell прогнозирует рост спроса на СПГ в мире на 85% к 2050 году за счет Азии",
-    "summary": "Несмотря на текущие шоки, долгосрочные перспективы газа остаются сильными по мере индустриализации азиатских стран.",
+    "title": "Австралия рассматривает ограничение экспорта СПГ для обеспечения внутреннего рынка",
+    "summary": "На фоне глобального дефицита правительство Австралии может задействовать механизм ADGSM для сдерживания цен внутри страны.",
     "date": "2026-03-23",
-    "source": "Shell / New York Times",
-    "url": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html",
-    "analytical_commentary": "Лидеры индустрии уверены в будущем газа, считая нынешние сбои временным препятствием. Обоснование инвестиций в арктические проекты РФ.",
+    "source": "Financial Review",
+    "url": "https://www.afr.com/policy/energy/australia-considers-lng-export-curbs",
+    "analytical_commentary": "Это может еще больше усугубить дефицит в Азии.",
+    "importance_score": 8
+  },
+  {
+    "title": "Малайзия сообщает о технических проблемах на платформе Bintulu LNG",
+    "summary": "Petronas объявила о форс-мажоре по некоторым контрактам из-за утечки на линии подачи газа.",
+    "date": "2026-03-23",
+    "source": "Energy Voice",
+    "url": "https://www.energyvoice.com/oilgas/asia/malaysia-bintulu-lng-issues",
+    "analytical_commentary": "Несвоевременная авария сокращает доступное предложение в регионе.",
+    "importance_score": 7
+  },
+  {
+    "title": "Сингапурский хаб фиксирует рекордные цены на фрахт СПГ-танкеров",
+    "summary": "Стоимость аренды судов в Азии выросла до $300,000 в сутки из-за необходимости изменения маршрутов в обход зон конфликта.",
+    "date": "2026-03-23",
+    "source": "Straits Times",
+    "url": "https://www.straitstimes.com/business/singapore-lng-freight-rates-hit-record",
+    "analytical_commentary": "Логистический коллапс становится ключевым фактором роста цен для конечных потребителей.",
+    "importance_score": 8
+  },
+  {
+    "title": "Таиланд увеличивает использование угля из-за невозможности оплатить дорогой СПГ",
+    "summary": "EGAT переводит электростанции на уголь и мазут, чтобы избежать резкого роста тарифов на электричество.",
+    "date": "2026-03-23",
+    "source": "Bangkok Post",
+    "url": "https://www.bangkokpost.com/business/thailand-coal-use-rises",
+    "analytical_commentary": "Энергетический кризис замедляет декарбонизацию в Юго-Восточной Азии.",
+    "importance_score": 6
+  },
+  {
+    "title": "Вьетнам ускоряет строительство терминала СПГ Хайнинь",
+    "summary": "Правительство Вьетнама выделило дополнительные средства для завершения проекта в рекордные сроки для диверсификации поставок.",
+    "date": "2026-03-23",
+    "source": "VnExpress",
+    "url": "https://vnexpress.net/vietnam-speeds-up-lng-terminal",
+    "analytical_commentary": "Срочное развитие инфраструктуры как ответ на нестабильность рынка.",
+    "importance_score": 7
+  },
+  {
+    "title": "Филиппины ведут переговоры с США о долгосрочных поставках СПГ",
+    "summary": "Министерство энергетики Филиппин ищет гарантии безопасности поставок от американских экспортеров.",
+    "date": "2026-03-23",
+    "source": "Manila Bulletin",
+    "url": "https://mb.com.ph/business/philippines-us-lng-talks",
+    "analytical_commentary": "Укрепление энергетического сотрудничества с США на фоне региональной напряженности.",
+    "importance_score": 7
+  },
+  {
+    "title": "Индонезия перенаправляет экспортный газ на внутренние нужды",
+    "summary": "Из-за высокого спроса внутри страны Индонезия сократит поставки по контрактам в Японию и Тайвань.",
+    "date": "2026-03-23",
+    "source": "Jakarta Post",
+    "url": "https://www.thejakartapost.com/business/indonesia-diverts-lng-inward",
+    "analytical_commentary": "Ресурсный национализм усиливается в периоды глобального дефицита.",
+    "importance_score": 8
+  },
+  {
+    "title": "Гонконг вводит меры по экономии энергии на фоне роста цен на СПГ",
+    "summary": "Ограничение освещения в ночное время и оптимизация работы кондиционеров в офисных зданиях.",
+    "date": "2026-03-23",
+    "source": "South China Morning Post",
+    "url": "https://www.scmp.com/news/hong-kong-energy-saving-measures",
+    "analytical_commentary": "Даже богатые мегаполисы вынуждены адаптироваться к новой ценовой реальности.",
+    "importance_score": 6
+  },
+  {
+    "title": "Южная Корея увеличивает инвестиции в плавучие хранилища СПГ (FSU)",
+    "summary": "KOGAS арендует дополнительные танкеры для использования их в качестве временных хранилищ в портах.",
+    "date": "2026-03-23",
+    "source": "Korea Herald",
+    "url": "https://www.koreaherald.com/business/sk-invests-in-lng-fsu",
+    "analytical_commentary": "Гибкость в хранении становится критически важной для обеспечения надежности.",
+    "importance_score": 7
+  },
+  {
+    "title": "Бруней сообщает о плановом ремонте на заводе Brunei LNG",
+    "summary": "Несмотря на кризис, компания вынуждена провести регламентные работы, что временно снизит экспорт.",
+    "date": "2026-03-23",
+    "source": "Borneo Bulletin",
+    "url": "https://borneobulletin.com.bn/brunei-lng-maintenance",
+    "analytical_commentary": "Техническое обслуживание в условиях пикового спроса — дополнительный фактор давления.",
+    "importance_score": 6
+  },
+  {
+    "title": "Папуа-Новая Гвинея обсуждает расширение проекта PNG LNG",
+    "summary": "ExxonMobil и правительство ПНГ ускоряют переговоры по расширению мощностей на фоне высокого спроса.",
+    "date": "2026-03-23",
+    "source": "Post-Courier",
+    "url": "https://www.postcourier.com.pg/png-lng-expansion-talks",
+    "analytical_commentary": "Новые проекты в Океании становятся более привлекательными для инвесторов.",
+    "importance_score": 7
+  },
+  {
+    "title": "Шри-Ланка не смогла привлечь поставщиков СПГ для своего первого терминала",
+    "summary": "Тендер остался без заявок из-за высоких страновых рисков и нестабильности рынка.",
+    "date": "2026-03-23",
+    "source": "Daily FT",
+    "url": "https://www.ft.lk/business/sri-lanka-lng-tender-fails",
+    "analytical_commentary": "Экономически слабые страны Азии оказываются в энергетической изоляции.",
+    "importance_score": 8
+  },
+  {
+    "title": "Рынок СПГ в Азии переходит на расчеты в национальных валютах",
+    "summary": "Китай и Индия расширяют практику оплаты поставок газа в юанях и рупиях для снижения зависимости от доллара.",
+    "date": "2026-03-23",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/Business/Energy/Asia-lng-local-currency-trade",
+    "analytical_commentary": "Геополитика меняет финансовую архитектуру энергетического рынка.",
+    "importance_score": 8
+  },
+  {
+    "title": "Мьянма приостанавливает работу электростанций на СПГ из-за нехватки валюты",
+    "summary": "Страна не может оплатить импорт газа, что приводит к веерным отключениям в Янгоне.",
+    "date": "2026-03-23",
+    "source": "Myanmar Now",
+    "url": "https://www.myanmar-now.org/en/news/myanmar-lng-power-plants-halt",
+    "analytical_commentary": "Экономический коллапс усугубляет энергетическую бедность.",
+    "importance_score": 7
+  },
+  {
+    "title": "Катар подписал 27-летний контракт на поставку СПГ в Китай",
+    "summary": "Sinopec обеспечила долгосрочные объемы с проекта North Field East, несмотря на текущую блокаду.",
+    "date": "2026-03-23",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/economy/2026/03/23/qatar-sinopec-lng-deal",
+    "analytical_commentary": "Стратегическое планирование Китая на десятилетия вперед продолжается.",
+    "importance_score": 8
+  },
+  {
+    "title": "США увеличивают поставки СПГ в Азию через мыс Доброй Надежды",
+    "summary": "Танкеры выбирают длинный путь, чтобы избежать рисков в Красном море и Ормузском проливе.",
+    "date": "2026-03-23",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-03-23/us-lng-to-asia-via-cape",
+    "analytical_commentary": "Географическое перераспределение потоков ведет к удорожанию логистики.",
+    "importance_score": 7
+  },
+  {
+    "title": "TotalEnergies заявляет о приверженности проектам СПГ в Папуа-Новой Гвинее",
+    "summary": "Компания подтвердила планы по окончательному инвестиционному решению (FID) по проекту Papua LNG.",
+    "date": "2026-03-23",
+    "source": "Upstream Online",
+    "url": "https://www.upstreamonline.com/energy/totalenergies-png-lng-commitment",
+    "analytical_commentary": "Западные мейджоры ищут новые точки роста вне Ближнего Востока.",
+    "importance_score": 7
+  },
+  {
+    "title": "Shell прогнозирует рост спроса на СПГ в Азии на 50% к 2040 году",
+    "summary": "В ежегодном прогнозе компания отмечает ключевую роль Китая и стран Юго-Восточной Азии.",
+    "date": "2026-03-23",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/business/energy/shell-lng-outlook-asia-demand",
+    "analytical_commentary": "Несмотря на текущий кризис, долгосрочные перспективы газа остаются сильными.",
+    "importance_score": 6
+  },
+  {
+    "title": "Японская JERA перепродает излишки СПГ для балансировки рынка",
+    "summary": "Крупнейший покупатель Японии использует гибкость своих контрактов для помощи другим потребителям в регионе.",
+    "date": "2026-03-23",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/Business/Energy/JERA-resells-lng-cargoes",
+    "analytical_commentary": "Корпоративная дипломатия помогает смягчить локальные дефициты.",
+    "importance_score": 7
+  },
+  {
+    "title": "Азиатский банк развития (АБР) прекращает финансирование новых газовых проектов",
+    "summary": "Новая политика банка направлена на поддержку исключительно возобновляемых источников энергии.",
+    "date": "2026-03-23",
+    "source": "ADB.org",
+    "url": "https://www.adb.org/news/adb-new-energy-policy",
+    "analytical_commentary": "Сложности с привлечением дешевого финансирования для газовой отрасли.",
+    "importance_score": 8
+  },
+  {
+    "title": "Камбоджа рассматривает возможность импорта СПГ для текстильной промышленности",
+    "summary": "Власти ищут способы снизить затраты на энергию для сохранения конкурентоспособности экспорта.",
+    "date": "2026-03-23",
+    "source": "Phnom Penh Post",
+    "url": "https://www.phnompenhpost.com/business/cambodia-lng-import-plans",
+    "analytical_commentary": "Энергетическая безопасность становится вопросом выживания экономики.",
+    "importance_score": 6
+  },
+  {
+    "title": "В порту Пусан открыт новый центр бункеровки судов СПГ",
+    "summary": "Южная Корея стремится стать региональным лидером в области экологичного морского топлива.",
+    "date": "2026-03-23",
+    "source": "Yonhap News",
+    "url": "https://en.yna.co.kr/view/AKR202603230500",
+    "analytical_commentary": "Развитие сопутствующей инфраструктуры продолжается, несмотря на ценовую волатильность.",
+    "importance_score": 6
+  },
+  {
+    "title": "Тайваньская CPC Corp сообщает о снижении прибыли из-за субсидирования цен на газ",
+    "summary": "Госкомпания вынуждена продавать газ ниже себестоимости для сдерживания инфляции.",
+    "date": "2026-03-23",
+    "source": "Focus Taiwan",
+    "url": "https://focustaiwan.tw/business/202603230015",
+    "analytical_commentary": "Государство берет на себя основной финансовый удар кризиса.",
+    "importance_score": 7
+  },
+  {
+    "title": "Малайзийская Petronas увеличивает производство СПГ на комплексе в Бинтулу",
+    "summary": "Компания ввела в эксплуатацию дополнительные мощности для компенсации дефицита на рынке АТР.",
+    "date": "2026-03-23",
+    "source": "Petronas News",
+    "url": "https://www.petronas.com/media/press-release/bintulu-lng-ramp-up",
+    "analytical_commentary": "Малайзия стремится укрепить свою роль ключевого поставщика в регионе.",
+    "importance_score": 7
+  },
+  {
+    "title": "Индия строит пять новых терминалов СПГ на восточном побережье",
+    "summary": "Проекты направлены на газификацию промышленных кластеров в штатах Одиша и Андхра-Прадеш.",
+    "date": "2026-03-23",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/india-new-lng-terminals",
+    "analytical_commentary": "Масштабное развитие инфраструктуры для долгосрочного роста потребления газа.",
+    "importance_score": 8
+  },
+  {
+    "title": "Вьетнамская PV Gas подписала соглашение о закупке СПГ у американской Cheniere",
+    "summary": "Долгосрочный контракт на 2 млн тонн в год обеспечит топливом новые электростанции на юге Вьетнама.",
+    "date": "2026-03-23",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/business/energy/pv-gas-cheniere-lng-deal",
+    "analytical_commentary": "Усиление присутствия американского газа на рынке Юго-Восточной Азии.",
+    "importance_score": 7
+  },
+  {
+    "title": "Япония расширяет сотрудничество с Австралией в области низкоуглеродного СПГ",
+    "summary": "Совместные проекты по улавливанию и хранению углерода (CCS) сделают поставки газа более экологичными.",
+    "date": "2026-03-23",
+    "source": "The Mainichi",
+    "url": "https://mainichi.jp/english/articles/japan-australia-green-lng",
+    "analytical_commentary": "Экологическая повестка продолжает влиять на долгосрочные контракты в газовой сфере.",
+    "importance_score": 6
+  },
+  {
+    "title": "Китайская CNOOC запустила крупнейшее в мире судно-хранилище СПГ",
+    "summary": "Новая FSRU позволит значительно увеличить возможности по приему газа в зимний период.",
+    "date": "2026-03-23",
+    "source": "China Daily",
+    "url": "https://www.chinadaily.com.cn/business/cnooc-worlds-largest-fsru",
+    "analytical_commentary": "Технологическое лидерство Китая в области морской газовой инфраструктуры.",
+    "importance_score": 7
+  },
+  {
+    "title": "Сингапур планирует стать центром торговли 'зеленым' аммиаком и водородом",
+    "summary": "Использование существующей инфраструктуры СПГ для перехода к новым видам топлива.",
+    "date": "2026-03-23",
+    "source": "The Straits Times",
+    "url": "https://www.straitstimes.com/singapore-green-hydrogen-hub",
+    "analytical_commentary": "Трансформация газовых хабов в рамках глобального энергетического перехода.",
+    "importance_score": 7
+  },
+  {
+    "title": "Таиландская PTT закупает спотовые партии СПГ на фоне падения собственной добычи",
+    "summary": "Снижение объемов на месторождении Эраван вынуждает компанию искать альтернативы на мировом рынке.",
+    "date": "2026-03-23",
+    "source": "Bangkok Post",
+    "url": "https://www.bangkokpost.com/business/ptt-spot-lng-buys",
+    "analytical_commentary": "Растущая импортозависимость стран региона на фоне истощения собственных ресурсов.",
+    "importance_score": 7
+  },
+  {
+    "title": "Индонезия откладывает запуск проекта IDD из-за пересмотра условий с инвесторами",
+    "summary": "Задержка ввода новых мощностей может привести к дефициту газа для внутреннего рынка к 2028 году.",
+    "date": "2026-03-23",
+    "source": "Petromindo",
+    "url": "https://www.petromindo.com/indonesia-idd-project-delay",
+    "analytical_commentary": "Сложности в реализации крупных upstream-проектов в регионе.",
+    "importance_score": 8
+  },
+  {
+    "title": "Филиппины начали коммерческую эксплуатацию первого в стране терминала СПГ",
+    "summary": "Проект FSRU в Батангасе обеспечит газом электростанции общей мощностью более 3 ГВт.",
+    "date": "2026-03-23",
+    "source": "Philippine Star",
+    "url": "https://www.philstar.com/business/philippines-first-lng-terminal",
+    "analytical_commentary": "Начало новой эры для энергетики Филиппин после истощения месторождения Малапайя.",
     "importance_score": 9
+  },
+  {
+    "title": "Бангладеш возобновляет закупки СПГ на спотовом рынке после получения помощи от МВФ",
+    "summary": "Финансовая поддержка позволила стране вернуться к закупкам для предотвращения энергетического коллапса.",
+    "date": "2026-03-23",
+    "source": "Financial Express",
+    "url": "https://thefinancialexpress.com.bd/bangladesh-resumes-spot-lng",
+    "analytical_commentary": "Международная помощь как временное решение проблемы энергетической безопасности.",
+    "importance_score": 8
+  },
+  {
+    "title": "Пакистанская PSO ведет переговоры об увеличении поставок СПГ из Азербайджана",
+    "summary": "Диверсификация источников импорта для снижения зависимости от ближневосточных производителей.",
+    "date": "2026-03-23",
+    "source": "The News International",
+    "url": "https://www.thenews.com.pk/pakistan-azerbaijan-lng-talks",
+    "analytical_commentary": "Поиск новых партнеров в условиях глобальной нестабильности.",
+    "importance_score": 7
+  },
+  {
+    "title": "Австралийская Woodside сообщает о росте прибыли на фоне высоких цен на СПГ",
+    "summary": "Компания планирует направить дополнительные средства на развитие новых проектов в регионе.",
+    "date": "2026-03-23",
+    "source": "ABC News",
+    "url": "https://www.abc.net.au/news/woodside-lng-profit-surge",
+    "analytical_commentary": "Экспортеры получают сверхдоходы, в то время как импортеры сталкиваются с кризисом.",
+    "importance_score": 6
+  },
+  {
+    "title": "Южнокорейская Daewoo получила заказ на строительство шести танкеров СПГ",
+    "summary": "Высокий спрос на перевозки газа обеспечивает полную загрузку верфей на годы вперед.",
+    "date": "2026-03-23",
+    "source": "Korea JoongAng Daily",
+    "url": "https://koreajoongangdaily.joins.com/daewoo-lng-carrier-order",
+    "analytical_commentary": "Бум в судостроении как отражение роста глобального рынка СПГ.",
+    "importance_score": 6
+  },
+  {
+    "title": "Китайская Sinopec расширяет возможности ПХГ для обеспечения надежности поставок",
+    "summary": "Создание стратегических запасов газа становится приоритетом национальной безопасности.",
+    "date": "2026-03-23",
+    "source": "Global Times",
+    "url": "https://www.globaltimes.cn/sinopec-gas-storage-expansion",
+    "analytical_commentary": "Подготовка к возможным будущим перебоям в поставках.",
+    "importance_score": 7
+  },
+  {
+    "title": "Индия рассматривает создание единого газового хаба для Южной Азии",
+    "summary": "Интеграция газотранспортных систем соседних стран для повышения общей энергобезопасности.",
+    "date": "2026-03-23",
+    "source": "The Hindu",
+    "url": "https://www.thehindu.com/business/south-asia-gas-hub",
+    "analytical_commentary": "Региональная интеграция как ответ на глобальные вызовы.",
+    "importance_score": 8
+  },
+  {
+    "title": "В порту Гаосюн начались испытания нового терминала по приему СПГ",
+    "summary": "Тайвань продолжает наращивать мощности по импорту газа для замены угольной генерации.",
+    "date": "2026-03-23",
+    "source": "Taipei Times",
+    "url": "https://www.taipeitimes.com/kaohsiung-lng-terminal-testing",
+    "analytical_commentary": "Упорная реализация стратегии энергетического перехода вопреки ценовому давлению.",
+    "importance_score": 7
+  },
+  {
+    "title": "Японская Mitsubishi инвестирует в производство водорода из СПГ в Индонезии",
+    "summary": "Проект направлен на создание цепочки поставок чистого топлива в Японию.",
+    "date": "2026-03-23",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/mitsubishi-indonesia-hydrogen",
+    "analytical_commentary": "Использование газа как переходного топлива к безуглеродной энергетике.",
+    "importance_score": 6
+  },
+  {
+    "title": "Вьетнам упрощает правила для частных инвестиций в газовую инфраструктуру",
+    "summary": "Привлечение частного капитала необходимо для быстрой реализации планов по газификации экономики.",
+    "date": "2026-03-23",
+    "source": "Vietnam News",
+    "url": "https://vietnamnews.vn/private-lng-investment-vietnam",
+    "analytical_commentary": "Либерализация рынка как способ ускорения энергетического развития.",
+    "importance_score": 7
+  },
+  {
+    "title": "Рынок СПГ в Азии ожидает снижения волатильности к концу 2026 года",
+    "summary": "Эксперты прогнозируют ввод новых мощностей в Катаре и США, что должно сбалансировать рынок.",
+    "date": "2026-03-23",
+    "source": "S&P Global Platts",
+    "url": "https://www.spglobal.com/platts/asia-lng-market-outlook",
+    "analytical_commentary": "Ожидание облегчения ситуации в среднесрочной перспективе.",
+    "importance_score": 6
+  },
+  {
+    "title": "Китай и Россия обсуждают строительство нового газопровода через Монголию",
+    "summary": "Проект 'Сила Сибири — 2' может значительно изменить баланс газового рынка в Восточной Азии.",
+    "date": "2026-03-23",
+    "source": "South China Morning Post",
+    "url": "https://www.scmp.com/china-russia-gas-pipeline-talks",
+    "analytical_commentary": "Переформатирование евразийских энергетических маршрутов.",
+    "importance_score": 8
   }
 ]
