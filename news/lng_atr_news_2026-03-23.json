@@ -1,182 +1,182 @@
 [
   {
-    "title": "FT: LNG supplies from the Gulf nearing a halt as Qatar stops exports",
-    "summary": "Qatar, providing a fifth of global LNG, halted exports after the blockade of the Strait of Hormuz and strikes on Ras Laffan. Supplies to Asia are expected to cease within 10 days.",
+    "title": "FT: Поставки СПГ из Персидского залива прекращаются, Катар остановил экспорт",
+    "summary": "Катар, обеспечивающий пятую часть мирового производства СПГ, прекратил отгрузки из-за блокады Ормузского пролива и ударов по хабу Рас-Лаффан. Поставки в Азию могут полностью исчерпаться в течение 10 дней.",
     "date": "2026-03-23",
     "source": "Financial Times / EADaily",
     "url": "https://eadaily.com/ru/news/2026/03/23/ft-postavki-spg-iz-stran-zaliva-prekrashchayutsya-iz-katara-vyshli-poslednie-tankery",
-    "analytical_commentary": "Critical disruption of the global supply chain. The loss of Qatari volumes creates a massive deficit that cannot be quickly compensated by other exporters.",
-    "importance_for_russian_oil_gas": "Extreme. Creates unprecedented demand for Russian LNG as a 'last resort' alternative, potentially increasing Russia's market share in Asia despite sanctions."
+    "analytical_commentary": "Критический сбой глобальной цепочки поставок. Потеря катарских объемов создает дефицит, который невозможно быстро восполнить другими экспортерами.",
+    "importance_score": 10
   },
   {
-    "title": "Pakistan faces 'dry' terminals as Qatari LNG shipments end",
-    "summary": "Pakistan's LNG terminals are expected to stop dispatch entirely by the end of the month as the last Qatari cargoes arrived. No new cargoes are scheduled.",
+    "title": "Пакистан ожидает остановку терминалов СПГ из-за прекращения поставок из Катара",
+    "summary": "Терминалы СПГ в Пакистане могут полностью прекратить работу к концу месяца. Последние катарские партии уже прибыли, а новые поставки не запланированы.",
     "date": "2026-03-23",
     "source": "Financial Times / Business Today",
     "url": "https://www.businesstoday.in/world/story/global-lng-supply-faces-cliff-as-supply-from-west-asia-may-come-to-an-end-in-just-10-days-847253-2026-03-23",
-    "analytical_commentary": "Pakistan is highly vulnerable due to 99% dependence on Qatari LNG. This will likely lead to severe power blackouts and industrial shutdowns.",
-    "importance_for_russian_oil_gas": "High. Potential for long-term supply contracts if political and financial hurdles are cleared. Pakistan is actively looking for alternative gas sources."
+    "analytical_commentary": "Пакистан критически уязвим из-за 99% зависимости от катарского газа. Это приведет к масштабным отключениям электроэнергии.",
+    "importance_score": 8
   },
   {
-    "title": "Bangladesh introduces gas rationing and shuts universities amid LNG shortage",
-    "summary": "Acute LNG shortage triggered by Middle East disruptions led Bangladesh to ration gas and close educational institutions. Imports are falling significantly short of last year's levels.",
+    "title": "Бангладеш вводит нормирование газа и закрывает университеты из-за дефицита СПГ",
+    "summary": "Острый дефицит газа из-за конфликта на Ближнем Востоке заставил власти Бангладеш ограничить потребление и закрыть учебные заведения. Импорт значительно ниже прошлогодних показателей.",
     "date": "2026-03-23",
     "source": "Argus Media / Maritime Executive",
     "url": "https://maritime-executive.com/editorials/strike-on-ras-laffan-could-raise-lng-prices-for-years",
-    "analytical_commentary": "Developing economies in Asia are the first to feel the impact of price spikes and supply cuts, forcing a pivot back to coal.",
-    "importance_for_russian_oil_gas": "Medium. Demonstrates the fragility of the current LNG market, highlighting the value of stable, pipeline-based or diversified supply which Russia promotes."
+    "analytical_commentary": "Развивающиеся экономики Азии первыми ощущают удар по ценам, что вынуждает их возвращаться к углю.",
+    "importance_score": 6
   },
   {
-    "title": "Taiwan scrambles for replacement LNG cargoes to avoid power disruption",
-    "summary": "Taiwan is moving quickly to secure spot cargoes as it faces a supply gap from the Gulf. Current reserves are estimated to last only until the end of April.",
+    "title": "Тайвань ищет замену поставкам СПГ для предотвращения сбоев в энергосистеме",
+    "summary": "Власти Тайваня пытаются срочно законтрактовать спотовые партии СПГ. Текущих запасов хватит только до конца апреля.",
     "date": "2026-03-23",
     "source": "Taipei Times / Bloomberg",
     "url": "https://www.taipeitimes.com/News/world/archives/2026/03/21/2003854228",
-    "analytical_commentary": "Taiwan's energy transition from coal to gas is under threat. The reliance on maritime LNG makes it geographically vulnerable to chokepoint blockades.",
-    "importance_for_russian_oil_gas": "Medium. Indirectly strengthens the case for Russian Arctic LNG projects that can reach Asia via the Northern Sea Route, bypassing the Strait of Hormuz."
+    "analytical_commentary": "Энергетический переход Тайваня под угрозой. Зависимость от морских поставок делает остров крайне уязвимым к блокаде проливов.",
+    "importance_score": 7
   },
   {
-    "title": "Japan and South Korea turn to coal and nuclear to mitigate LNG shock",
-    "summary": "Major Asian importers are increasing coal-fired generation and restarting nuclear reactors to counter soaring LNG prices and supply uncertainty from the Middle East.",
+    "title": "Япония и Южная Корея переходят на уголь и атомную энергию из-за шока на рынке СПГ",
+    "summary": "Крупнейшие импортеры Азии увеличивают угольную генерацию и перезапускают реакторы, чтобы компенсировать взлет цен на газ и нестабильность поставок.",
     "date": "2026-03-23",
     "source": "New York Times / Reuters",
     "url": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html",
-    "analytical_commentary": "The 'clean energy' transition is being paused for 'energy security' pragmatism. Spot prices have reached three-year highs, making gas uncompetitive for power.",
-    "importance_for_russian_oil_gas": "Low-Medium. While demand for gas might dip temporarily due to coal switching, the long-term need for diversified gas remains high, benefiting stable suppliers."
+    "analytical_commentary": "Переход на «чистую» энергию приостановлен ради прагматизма энергобезопасности. Спотовые цены на максимуме за 3 года.",
+    "importance_score": 4
   },
   {
-    "title": "Russia considers redirecting LNG exports from Europe to friendly Asia-Pacific nations",
-    "summary": "Deputy PM Novak stated that Russian companies are exploring long-term contracts to divert gas to India, Thailand, Philippines, and China without waiting for further EU restrictions.",
+    "title": "Россия рассматривает перенаправление экспорта СПГ из Европы в страны АТР",
+    "summary": "Вице-премьер Новак заявил о планах по заключению долгосрочных контрактов с Индией, Таиландом, Филиппинами и Китаем, не дожидаясь новых санкций ЕС.",
     "date": "2026-03-23",
-    "source": "TASS / Reuters",
+    "source": "ТАСС / Reuters",
     "url": "https://www.reuters.com/business/energy/russia-weighs-redirecting-lng-exports-europe-asia-pacific-media-quote-novak-2026-03-06/",
-    "analytical_commentary": "Russia is proactively repositioning itself to capture the market gap left by Middle Eastern disruptions and looming European bans.",
-    "importance_for_russian_oil_gas": "Extreme. This is a strategic pivot. Success depends on logistics (ice-class tankers) and the ability to finalize long-term deals with Asian partners."
+    "analytical_commentary": "Россия проактивно занимает рыночные ниши, освободившиеся из-за ближневосточного кризиса и европейских эмбарго. Стратегический поворот.",
+    "importance_score": 10
   },
   {
-    "title": "U.S. LNG exporters emerge as 'winners' in Asia amid Iran conflict",
-    "summary": "U.S. gas exporters are benefiting from the war as Asian governments seek dependable alternatives. Trump administration promotes U.S. LNG as a shield against supply shocks.",
+    "title": "Экспортеры СПГ из США стали главными бенефициарами кризиса в Азии",
+    "summary": "Американские компании выигрывают от войны, так как азиатские страны ищут надежную альтернативу Катару. Администрация Трампа активно продвигает американский газ.",
     "date": "2026-03-23",
     "source": "Washington Post",
     "url": "https://www.washingtonpost.com/world/2026/03/23/iran-war-us-lng-exports-taiwan-trump-asia-natural-gas/",
-    "analytical_commentary": "The U.S. is leveraging the crisis to cement its role as the dominant 'safe' supplier for Asia, though high prices remain a barrier for some.",
-    "importance_for_russian_oil_gas": "High (Competitive). Direct competition for market share in Asia. U.S. political influence is a significant factor in contract decisions."
+    "analytical_commentary": "США используют кризис для закрепления роли доминирующего «безопасного» поставщика, несмотря на высокую цену. Прямая конкуренция с РФ.",
+    "importance_score": 7
   },
   {
-    "title": "Asia spot LNG prices surge 68% reaching $25/mmBtu",
-    "summary": "The JKM benchmark saw a massive daily increase due to the U.S.-Iran conflict and Qatari outages, marking the highest prices in three years.",
+    "title": "Спотовые цены на СПГ в Азии взлетели на 68%, достигнув $25 за млн БТЕ",
+    "summary": "Индекс JKM показал рекордный дневной рост из-за конфликта США и Ирана и остановок в Катаре. Это максимальный уровень цен за последние три года.",
     "date": "2026-03-23",
     "source": "S&P Global Platts / Reuters",
     "url": "https://www.reuters.com/business/energy/asia-lng-price-surge-opens-arbitrage-west-replace-qatari-supply-2026-03-04/",
-    "analytical_commentary": "Price volatility is making LNG a high-risk commodity for developing Asia, potentially accelerating the search for more stable pricing mechanisms.",
-    "importance_for_russian_oil_gas": "High. High spot prices increase the profitability of Russian spot sales and make long-term, oil-linked contracts more attractive."
+    "analytical_commentary": "Высокая волатильность делает СПГ рискованным товаром для развивающихся стран Азии. Рост доходов для российских спотовых продаж.",
+    "importance_score": 9
   },
   {
-    "title": "South Korea downplays supply concerns despite Qatar uncertainty",
-    "summary": "The Industry Ministry stated that alternative sources are available and Qatari imports account for only 14% of supply. Coal and nuclear will be used to fill gaps.",
+    "title": "Южная Корея заявляет о стабильности поставок, несмотря на неопределенность с Катаром",
+    "summary": "Минпромторг Кореи утверждает, что катарский газ составляет лишь 14% импорта, и у страны есть альтернативные источники. Будет расширено использование угля и АЭС.",
     "date": "2026-03-23",
     "source": "Straits Times",
     "url": "https://www.straitstimes.com/asia/south-korea-flags-uncertainty-from-qatar-lng-plant-damage-but-downplays-supply-concerns",
-    "analytical_commentary": "Official optimism masks the underlying pressure on utilities like KEPCO, which face financial strain due to price caps.",
-    "importance_for_russian_oil_gas": "Medium. South Korea remains a major market for Sakhalin-2 LNG. Stability here is key for Russian far-east exports."
+    "analytical_commentary": "Официальный оптимизм скрывает финансовое давление на энергокомпании (KEPCO) из-за сдерживания тарифов при росте цен на газ.",
+    "importance_score": 5
   },
   {
-    "title": "Japan holds emergency reserves but seeks spot LNG from JKM",
-    "summary": "Japanese traders plan to buy spot cargoes to cover Gulf shortfalls while also relying on 254 days of oil reserves and 3 weeks of LNG reserves.",
+    "title": "Япония использует стратегические резервы, но планирует спотовые закупки СПГ",
+    "summary": "Японские трейдеры намерены закупать спотовые партии для покрытия дефицита. У страны есть резервы нефти на 254 дня и газа на 3 недели.",
     "date": "2026-03-23",
     "source": "Reuters / Financial Times",
     "url": "https://www.reuters.com/business/energy/asias-oil-lng-dependence-middle-east-2026-03-02/",
-    "analytical_commentary": "Japan's diversified strategy and high reserves provide a buffer, but prolonged conflict will force difficult economic choices.",
-    "importance_for_russian_oil_gas": "Medium. Maintaining 'meaningful' relations (e.g., Sakhalin-2) is critical for Japan's energy security, protecting these assets from total exit.",
+    "analytical_commentary": "Диверсифицированная стратегия Японии дает буфер, но затяжной конфликт заставит экономить ресурсы. Сохранение «Сахалин-2» критично.",
+    "importance_score": 5
   },
   {
-    "title": "China to offer domestic LNG futures to reflect local demand",
-    "summary": "China is set to launch yuan-denominated LNG futures in Shanghai to reduce reliance on JKM and Brent benchmarks.",
+    "title": "Китай запустит собственные фьючерсы на СПГ в юанях для влияния на рынок",
+    "summary": "Шанхайская биржа готовится запустить торговлю фьючерсами, чтобы создать локальный бенчмарк и снизить зависимость от JKM и Brent.",
     "date": "2026-03-23",
     "source": "Reuters",
     "url": "https://www.reuters.com/business/energy/china-offer-lng-futures-soon-next-month-sources-say-2026-01-23/",
-    "analytical_commentary": "A step towards 'gas sovereignty'. China wants to influence pricing rather than being a price-taker in a volatile global market.",
-    "importance_for_russian_oil_gas": "High. Aligns with Russia's interest in de-dollarized trade and moving away from Western-centric benchmarks."
+    "analytical_commentary": "Шаг к «газовому суверенитету». Китай хочет сам влиять на ценообразование. Совпадает с интересами РФ по дедолларизации торговли.",
+    "importance_score": 9
   },
   {
-    "title": "Vietnam and Philippines face first major test for new LNG terminals",
-    "summary": "Newly launched LNG terminals in SE Asia are struggling with high spot prices, testing the sustainability of their gas-to-power strategies.",
+    "title": "Новые терминалы СПГ во Вьетнаме и на Филиппинах проходят проверку высокими ценами",
+    "summary": "Недавно запущенные терминалы в ЮВА сталкиваются с проблемами из-за дорогого газа, что ставит под вопрос устойчивость их энергетических стратегий.",
     "date": "2026-03-23",
     "source": "Green Central Banking",
     "url": "https://greencentralbanking.com/2026/03/09/clean-energy-not-lng-is-asias-best-hedge-against-energy-shocks/",
-    "analytical_commentary": "The 'gas as a transition fuel' narrative is being challenged by market volatility. Renewables might gain more political traction.",
-    "importance_for_russian_oil_gas": "Medium. Russia has expressed interest in supplying these new markets. High prices might delay new long-term commitments."
+    "analytical_commentary": "Концепция газа как переходного топлива под угрозой. Волатильность может ускорить инвестиции в ВИЭ в этом регионе.",
+    "importance_score": 6
   },
   {
-    "title": "Thailand's PTT secures 5-year LNG deal with Petronas",
-    "summary": "Amidst global uncertainty, regional cooperation continues with Thailand securing supply from Malaysia starting in 2028.",
+    "title": "Таиландская PTT подписала 5-летний контракт на поставку СПГ с Petronas",
+    "summary": "На фоне глобального хаоса региональное сотрудничество укрепляется: Таиланд обеспечил поставки из Малайзии с 2028 года.",
     "date": "2026-03-23",
     "source": "IEEJ / LNG Review",
     "url": "https://eneken.ieej.or.jp/data/13096.pdf",
-    "analytical_commentary": "Intra-regional trade is seen as a way to enhance security and reduce shipping risks from distant suppliers.",
-    "importance_for_russian_oil_gas": "Low. Regional competition, but highlights the trend of seeking stable, geographically closer partners."
+    "analytical_commentary": "Внутрирегиональная торговля — способ повысить безопасность и снизить логистические риски из-за перекрытых проливов.",
+    "importance_score": 3
   },
   {
-    "title": "Russia-China pipeline gas remains stable despite LNG turmoil",
-    "summary": "Pipeline imports from Power of Siberia-1 and Central Asia continue to provide a reliable baseline for China's gas demand.",
+    "title": "Трубопроводные поставки газа из РФ в Китай остаются стабильными на фоне кризиса СПГ",
+    "summary": "Поставки по «Силе Сибири-1» продолжают обеспечивать надежную базу для китайской промышленности, не завися от морских путей.",
     "date": "2026-03-23",
     "source": "CSIS / IEA",
     "url": "https://www.csis.org/analysis/how-power-siberia-2-deal-could-reshape-global-energy",
-    "analytical_commentary": "The contrast between maritime LNG vulnerability and pipeline stability is stark. This accelerates the PoS-2 negotiations.",
-    "importance_for_russian_oil_gas": "Extreme. Strengthens Russia's hand in negotiating Power of Siberia-2 as China seeks to de-risk its energy imports.",
+    "analytical_commentary": "Контраст между уязвимостью морского СПГ и стабильностью трубы очевиден. Это ускоряет переговоры по «Силе Сибири-2».",
+    "importance_score": 10
   },
   {
-    "title": "Australia remains Japan's top LNG supplier, providing 40% of needs",
-    "summary": "Despite global shocks, the Australia-Japan supply line remains the most critical and stable energy corridor in the ATR region.",
+    "title": "Австралия остается ключевым поставщиком СПГ для Японии, обеспечивая 40% нужд",
+    "summary": "Несмотря на глобальные шоки, австралийско-японский энергетический мост остается самым стабильным в регионе АТР.",
     "date": "2026-03-23",
     "source": "Reuters",
     "url": "https://www.reuters.com/business/energy/asias-oil-lng-dependence-middle-east-2026-03-02/",
-    "analytical_commentary": "Australia is the 'anchor' for Japanese energy security. Any disruption here would be catastrophic for the region.",
-    "importance_for_russian_oil_gas": "Low (Competitive). Australia is the primary competitor for Russian LNG in Japan and South Korea."
+    "analytical_commentary": "Австралия — «якорь» энергобезопасности Японии. Любой сбой здесь был бы катастрофой для региона. Основной конкурент РФ в Японии.",
+    "importance_score": 4
   },
   {
-    "title": "LNG market transition: From buyer's advantage to seller's market",
-    "summary": "The expected 2026 supply surge is being overshadowed by geopolitical disruptions, keeping prices elevated despite new capacity.",
+    "title": "Трансформация рынка СПГ 2026: от избытка к доминированию продавца",
+    "summary": "Ожидаемый профицит 2026 года сорван геополитикой. Цены остаются высокими, несмотря на ввод новых мощностей.",
     "date": "2026-03-23",
     "source": "Energy Tracker Asia / Wood Mackenzie",
     "url": "https://energytracker.asia/lng-prices-in-2026/",
-    "analytical_commentary": "The 'supply glut' predicted for 2026 is being deferred by the Iran war. Sellers retain significant leverage.",
-    "importance_for_russian_oil_gas": "High. Prolongs the window of high prices, beneficial for Russian state budget and company revenues."
+    "analytical_commentary": "Период дешевого газа откладывается. У продавцов остается значительное влияние на условия долгосрочных контрактов.",
+    "importance_score": 9
   },
   {
-    "title": "India eyes more Russian LNG as Middle East supply falters",
-    "summary": "Indian officials are exploring increased imports from Russia to fill the gap left by Qatari force majeure.",
+    "title": "Индия рассматривает возможность увеличения импорта российского СПГ",
+    "summary": "Индийские чиновники ищут пути замещения катарских объемов поставками из России после объявления форс-мажора QatarEnergy.",
     "date": "2026-03-23",
-    "source": "Financial Times / TASS",
+    "source": "Financial Times / ТАСС",
     "url": "https://www.reuters.com/business/energy/russia-weighs-redirecting-lng-exports-europe-asia-pacific-media-quote-novak-2026-03-06/",
-    "analytical_commentary": "India's 'multi-aligned' foreign policy allows it to pivot to Russia when Western/Middle Eastern supplies are constrained.",
-    "importance_for_russian_oil_gas": "Extreme. Opportunity to lock in long-term deals with the world's fastest-growing major energy consumer."
+    "analytical_commentary": "Возможность заключить долгосрочные сделки с самым быстрорастущим потребителем энергии в мире. Стратегический шанс для РФ.",
+    "importance_score": 10
   },
   {
-    "title": "Strait of Hormuz risk score: Japan and South Korea most vulnerable",
-    "summary": "Analysis shows that while China and India are major importers, Japan and Korea face the highest risk due to lack of domestic production and pipelines.",
+    "title": "Риски Ормузского пролива: Япония и Корея признаны самыми уязвимыми",
+    "summary": "Анализ показывает, что из-за отсутствия собственной добычи и труб Япония и Корея больше всех страдают от блокады морских путей.",
     "date": "2026-03-23",
     "source": "Zero Carbon Analytics",
     "url": "https://zerocarbon-analytics.org/insights/briefings/asian-countries-most-at-risk-from-oil-and-gas-supply-disruptions-in-strait-of-hormuz",
-    "analytical_commentary": "Geopolitical risk is now a permanent factor in Asian energy procurement, likely leading to a premium on 'safe' routes like the NSR.",
-    "importance_for_russian_oil_gas": "High. Validates Russia's Northern Sea Route as a strategic, safe alternative for Asian energy delivery."
+    "analytical_commentary": "Геополитический риск теперь постоянный фактор, повышающий ценность безопасных путей, таких как Севморпуть.",
+    "importance_score": 8
   },
   {
-    "title": "KOGAS and JERA sign LNG swap agreement to manage supply crises",
-    "summary": "The world's top two LNG buyers are coordinating volumes to ensure stability during Middle East disruptions.",
+    "title": "KOGAS и JERA заключили соглашение о своп-поставках СПГ для борьбы с кризисом",
+    "summary": "Крупнейшие покупатели мира координируют объемы для обеспечения стабильности при перебоях на Ближнем Востоке.",
     "date": "2026-03-23",
     "source": "Chosun Biz",
-    "url": "https://biz.chosun.com/en/en-policy/2026/03/14/G3GCOPGYWJFQLCEOGXXU3R4WAI/",
-    "analytical_commentary": "Buyer alliances are forming to counter producer power and manage logistics in a fragmented market.",
-    "importance_for_russian_oil_gas": "Medium. May limit the ability of individual companies to demand extreme premiums, as buyers can 'swap' to optimize delivery.",
+    "url": "https://biz.chosun.com/en/en-policy/2026/03/14/G3GCOGYWJFQLCEOGXXU3R4WAI/",
+    "analytical_commentary": "Покупатели объединяются, чтобы противостоять силе продавцов и оптимизировать логистику в фрагментированном рынке.",
+    "importance_score": 5
   },
   {
-    "title": "Shell projects 85% growth in global LNG demand by 2050, led by Asia",
-    "summary": "Despite current shocks, the long-term outlook for gas remains robust as Asian economies continue to industrialize.",
+    "title": "Shell прогнозирует рост спроса на СПГ в мире на 85% к 2050 году за счет Азии",
+    "summary": "Несмотря на текущие шоки, долгосрочные перспективы газа остаются сильными по мере индустриализации азиатских стран.",
     "date": "2026-03-23",
     "source": "Shell / New York Times",
     "url": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html",
-    "analytical_commentary": "Industry leaders remain bullish on gas, seeing current disruptions as a 'bump in the road' rather than a terminal decline.",
-    "importance_for_russian_oil_gas": "High. Justifies continued investment in large-scale Arctic projects for the 2030s and beyond."
+    "analytical_commentary": "Лидеры индустрии уверены в будущем газа, считая нынешние сбои временным препятствием. Обоснование инвестиций в арктические проекты РФ.",
+    "importance_score": 9
   }
 ]
