@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Энергетический конвертер</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    :root {
+      --blue: #0f57b5;
+      --blue-2: #2b8de0;
+      --bg: #eef2f8;
+      --card: #ffffff;
+      --line: #d7dfec;
+      --text: #10315c;
+      --muted: #6f7e95;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #eaf1fb 0%, #f8fbff 100%);
+    }
+    .topbar {
+      background: linear-gradient(90deg, var(--blue), var(--blue-2));
+      padding: 12px;
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+    .tab {
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      background: rgba(255, 255, 255, 0.18);
+      color: #fff;
+      border-radius: 8px;
+      font-size: 16px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    .tab.active {
+      background: #fff;
+      color: var(--blue);
+      font-weight: 700;
+    }
+    .wrap { padding: 14px; max-width: 520px; margin: 0 auto; }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      display: block;
+      margin: 0 0 6px;
+    }
+    input, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      font-size: 16px;
+      color: var(--text);
+      background: #fff;
+      padding: 10px 12px;
+    }
+    .hidden-select { display: none; }
+    .picker-btn {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      font-size: 16px;
+      color: var(--text);
+      background: #fff;
+      padding: 10px 12px;
+      text-align: left;
+      position: relative;
+      min-height: 44px;
+    }
+    .picker-btn::after {
+      content: "▾";
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .picker-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 18, 45, 0.42);
+      display: flex;
+      align-items: flex-end;
+      z-index: 90;
+    }
+    .picker-sheet {
+      width: 100%;
+      max-height: 70vh;
+      background: #fff;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+    }
+    .picker-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      font-weight: 700;
+    }
+    .picker-close {
+      border: 0;
+      background: transparent;
+      font-size: 24px;
+      line-height: 1;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 0 6px;
+    }
+    .picker-options {
+      overflow: auto;
+      max-height: calc(70vh - 52px);
+    }
+    .picker-option {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+      text-align: left;
+      padding: 12px 14px;
+      font-size: 17px;
+      color: var(--text);
+      cursor: pointer;
+    }
+    .picker-option.active {
+      color: var(--blue);
+      font-weight: 700;
+      background: #f3f8ff;
+    }
+    .btn {
+      border: 0;
+      border-radius: 10px;
+      padding: 11px 14px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(90deg, var(--blue), var(--blue-2));
+      cursor: pointer;
+      width: 100%;
+    }
+    .result-title {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0 0 8px;
+    }
+    .result-value {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--blue);
+      margin: 0 0 2px;
+      word-break: break-word;
+    }
+    .result-unit {
+      font-size: 15px;
+      color: var(--muted);
+      margin: 0;
+    }
+    .list-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      border-top: 1px solid var(--line);
+      padding: 10px 0;
+    }
+    .list-row:first-child { border-top: 0; }
+    .list-unit { color: var(--muted); font-size: 13px; text-align: right; }
+    .hint {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="tabs">
+      <button class="tab active" id="tab-units">Единицы</button>
+      <button class="tab" id="tab-prices">Цены</button>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section id="units-panel">
+      <div class="panel">
+        <div class="grid">
+          <div>
+            <label for="u-value">Значение</label>
+            <input id="u-value" type="text" inputmode="decimal" value="1" />
+          </div>
+          <div>
+            <label for="u-from">Из</label>
+            <button id="u-from-picker" class="picker-btn" type="button"></button>
+            <select id="u-from" class="hidden-select"></select>
+          </div>
+        </div>
+        <div style="margin-top:10px">
+          <label for="u-to">В</label>
+          <button id="u-to-picker" class="picker-btn" type="button"></button>
+          <select id="u-to" class="hidden-select"></select>
+        </div>
+        <div style="margin-top:10px">
+          <button class="btn" id="u-convert">Пересчитать</button>
+        </div>
+      </div>
+      <div class="panel">
+        <p class="result-title">Результат</p>
+        <p class="result-value" id="u-result-value">0</p>
+        <p class="result-unit" id="u-result-unit">-</p>
+      </div>
+    </section>
+
+    <section id="prices-panel" class="hidden">
+      <div class="panel">
+        <div class="grid">
+          <div>
+            <label for="p-value">Цена</label>
+            <input id="p-value" type="text" inputmode="decimal" value="1" />
+          </div>
+          <div>
+            <label for="p-currency">Валюта</label>
+            <select id="p-currency">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="RUB">RUB</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-top:10px">
+          <label for="p-from">Единица цены (за ...)</label>
+          <button id="p-from-picker" class="picker-btn" type="button"></button>
+          <select id="p-from" class="hidden-select"></select>
+        </div>
+        <div class="grid" style="margin-top:10px">
+          <div>
+            <label for="fx-usd-rub">USD/RUB</label>
+            <input id="fx-usd-rub" type="text" inputmode="decimal" value="90" />
+          </div>
+          <div>
+            <label for="fx-eur-rub">EUR/RUB</label>
+            <input id="fx-eur-rub" type="text" inputmode="decimal" value="98" />
+          </div>
+        </div>
+        <div style="margin-top:10px">
+          <label for="fx-eur-usd">EUR/USD (кросс-курс)</label>
+          <input id="fx-eur-usd" type="text" inputmode="decimal" value="1.1" />
+        </div>
+        <div id="fx-source-hint" class="hint"></div>
+      </div>
+      <div class="panel" id="p-results"></div>
+    </section>
+  </main>
+
+  <div id="picker-modal" class="picker-modal hidden" aria-hidden="true">
+    <div class="picker-sheet">
+      <div class="picker-head">
+        <span id="picker-title">Выберите единицу</span>
+        <button id="picker-close" class="picker-close" type="button" aria-label="Закрыть">×</button>
+      </div>
+      <div id="picker-options" class="picker-options"></div>
+    </div>
+  </div>
+
+  <script>
+    const STANDARD_NATURAL_GAS_KWH_PER_M3 = 10.29255;
+    const STANDARD_NATURAL_GAS_GJ_PER_KM3 = STANDARD_NATURAL_GAS_KWH_PER_M3 * 3.6;
+    const ELECTRICITY_GAS_EQ_EFFICIENCY = 0.55;
+
+    const UNITS = [
+      { id: "km3_ng", label: "тыс м3 газа", toGJ: STANDARD_NATURAL_GAS_GJ_PER_KM3 },
+      { id: "km3_ng_lhv", label: "тыс м3 газа (НТС)", toGJ: 33.348 },
+      { id: "mwh", label: "МВт·ч", toGJ: 3.6 },
+      { id: "mmbtu", label: "млн БТЕ", toGJ: 1.0551 },
+      { id: "t_lng", label: "т СПГ", toGJ: 48.809472 },
+      { id: "gj", label: "ГДж", toGJ: 1 },
+      { id: "kft3_ng", label: "тыс фт3 газа", toGJ: 1.04922544 },
+      { id: "kcal", label: "ккал", toGJ: 0.0000041868 },
+      { id: "boe", label: "бнэ", toGJ: 7.23022453 },
+      { id: "toe", label: "т н.э.", toGJ: 41.868 },
+      { id: "therm", label: "терм", toGJ: 0.10551 },
+      { id: "tce", label: "т у.э.", toGJ: 29.3076 }
+    ];
+    const ELECTRICITY_UNIT_IDS = new Set(["kwh", "mwh", "gwh", "twh"]);
+    const GAS_VOLUME_UNIT_IDS = new Set([
+      "ft3_ng",
+      "kft3_ng",
+      "mft3_ng",
+      "bft3_ng",
+      "tft3_ng",
+      "km3_ng",
+      "km3_ng_lhv"
+    ]);
+
+    const byId = Object.fromEntries(UNITS.map((u) => [u.id, u]));
+    const tg = window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null;
+    if (tg) {
+      tg.ready();
+      tg.expand();
+    }
+
+    const tabUnits = document.getElementById("tab-units");
+    const tabPrices = document.getElementById("tab-prices");
+    const unitsPanel = document.getElementById("units-panel");
+    const pricesPanel = document.getElementById("prices-panel");
+    tabUnits.onclick = () => {
+      tabUnits.classList.add("active");
+      tabPrices.classList.remove("active");
+      unitsPanel.classList.remove("hidden");
+      pricesPanel.classList.add("hidden");
+    };
+    tabPrices.onclick = () => {
+      tabPrices.classList.add("active");
+      tabUnits.classList.remove("active");
+      pricesPanel.classList.remove("hidden");
+      unitsPanel.classList.add("hidden");
+      renderPriceResults();
+    };
+
+    const uFrom = document.getElementById("u-from");
+    const uTo = document.getElementById("u-to");
+    const pFrom = document.getElementById("p-from");
+    const fxUsdRubInput = document.getElementById("fx-usd-rub");
+    const fxEurRubInput = document.getElementById("fx-eur-rub");
+    const fxEurUsdInput = document.getElementById("fx-eur-usd");
+    const fxSourceHint = document.getElementById("fx-source-hint");
+    const uFromPicker = document.getElementById("u-from-picker");
+    const uToPicker = document.getElementById("u-to-picker");
+    const pFromPicker = document.getElementById("p-from-picker");
+    const pickerModal = document.getElementById("picker-modal");
+    const pickerTitle = document.getElementById("picker-title");
+    const pickerClose = document.getElementById("picker-close");
+    const pickerOptions = document.getElementById("picker-options");
+    let activePicker = null;
+
+    for (const u of UNITS) {
+      const a = document.createElement("option");
+      a.value = u.id;
+      a.textContent = u.label;
+      uFrom.appendChild(a);
+      const b = document.createElement("option");
+      b.value = u.id;
+      b.textContent = u.label;
+      uTo.appendChild(b);
+      const c = document.createElement("option");
+      c.value = u.id;
+      c.textContent = u.label;
+      pFrom.appendChild(c);
+    }
+    uFrom.value = "km3_ng";
+    uTo.value = "mwh";
+    pFrom.value = "km3_ng";
+
+    const setPickerButtonText = (button, value) => {
+      const unit = byId[value];
+      button.textContent = unit ? unit.label : "Выберите единицу";
+    };
+
+    const closePicker = () => {
+      pickerModal.classList.add("hidden");
+      pickerModal.setAttribute("aria-hidden", "true");
+      pickerOptions.innerHTML = "";
+      activePicker = null;
+    };
+
+    const openPicker = (config) => {
+      activePicker = config;
+      pickerTitle.textContent = config.title;
+      pickerOptions.innerHTML = "";
+      for (const unit of UNITS) {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "picker-option" + (config.select.value === unit.id ? " active" : "");
+        item.textContent = unit.label;
+        item.onclick = () => {
+          config.select.value = unit.id;
+          setPickerButtonText(config.button, unit.id);
+          if (typeof config.onChange === "function") config.onChange();
+          closePicker();
+        };
+        pickerOptions.appendChild(item);
+      }
+      pickerModal.classList.remove("hidden");
+      pickerModal.setAttribute("aria-hidden", "false");
+    };
+
+    uFromPicker.onclick = () => openPicker({ title: "Единица «Из»", select: uFrom, button: uFromPicker, onChange: convertUnits });
+    uToPicker.onclick = () => openPicker({ title: "Единица «В»", select: uTo, button: uToPicker, onChange: convertUnits });
+    pFromPicker.onclick = () => openPicker({ title: "Единица цены", select: pFrom, button: pFromPicker, onChange: renderPriceResults });
+    pickerClose.onclick = closePicker;
+    pickerModal.onclick = (event) => {
+      if (event.target === pickerModal) closePicker();
+    };
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && activePicker) closePicker();
+    });
+    setPickerButtonText(uFromPicker, uFrom.value);
+    setPickerButtonText(uToPicker, uTo.value);
+    setPickerButtonText(pFromPicker, pFrom.value);
+
+    const parseNum = (raw) => {
+      const text = String(raw || "").replace(/\s+/g, "").replace(",", ".");
+      const n = Number(text);
+      return Number.isFinite(n) ? n : 0;
+    };
+    const formatInputNum = (value, digits = 6) => {
+      const rounded = Number(value);
+      if (!Number.isFinite(rounded) || rounded <= 0) return "";
+      return rounded.toFixed(digits).replace(/0+$/, "").replace(/\.$/, "");
+    };
+    const fmt = (value, d = 6) => {
+      const out = Number(value).toFixed(d).replace(/0+$/, "").replace(/\.$/, "");
+      return out.replace(".", ",");
+    };
+    const isElectricityUnit = (unit) => !!unit && ELECTRICITY_UNIT_IDS.has(unit.id);
+    const isGasVolumeUnit = (unit) => !!unit && GAS_VOLUME_UNIT_IDS.has(unit.id);
+    const convertQuantity = (value, from, to) => {
+      if (!from || !to || !to.toGJ) return 0;
+      const sourceValueGJ = value * from.toGJ;
+      if (isElectricityUnit(from) && isGasVolumeUnit(to)) {
+        return sourceValueGJ / ELECTRICITY_GAS_EQ_EFFICIENCY / to.toGJ;
+      }
+      if (isGasVolumeUnit(from) && isElectricityUnit(to)) {
+        return sourceValueGJ * ELECTRICITY_GAS_EQ_EFFICIENCY / to.toGJ;
+      }
+      return sourceValueGJ / to.toGJ;
+    };
+    const convertPricePerUnitRub = (pricePerSourceUnitRub, from, to) => {
+      const quantityFactor = convertQuantity(1, from, to);
+      if (!Number.isFinite(quantityFactor) || quantityFactor <= 0) return 0;
+      return pricePerSourceUnitRub / quantityFactor;
+    };
+
+    const FX_STORAGE_KEY = "miniapp_fx_rates_v2";
+    const fxDefaultUrls = [
+      "../datasets/fx_cbr_daily.json",
+      "/datasets/fx_cbr_daily.json",
+      "./fx_latest.json"
+    ];
+
+    const normalizeFxRates = (rawRates) => {
+      let usdRub = parseNum(rawRates.USDRUB ?? rawRates.usdRub);
+      let eurRub = parseNum(rawRates.EURRUB ?? rawRates.eurRub);
+      let eurUsd = parseNum(rawRates.EURUSD ?? rawRates.eurUsd);
+
+      if ((!eurUsd || eurUsd <= 0) && usdRub > 0 && eurRub > 0) eurUsd = eurRub / usdRub;
+      if ((!eurRub || eurRub <= 0) && usdRub > 0 && eurUsd > 0) eurRub = usdRub * eurUsd;
+      if ((!usdRub || usdRub <= 0) && eurRub > 0 && eurUsd > 0) usdRub = eurRub / eurUsd;
+
+      if (!(usdRub > 0) || !(eurRub > 0) || !(eurUsd > 0)) return null;
+      return { usdRub, eurRub, eurUsd };
+    };
+
+    const setFxRatesToInputs = (rates) => {
+      fxUsdRubInput.value = formatInputNum(rates.usdRub, 4);
+      fxEurRubInput.value = formatInputNum(rates.eurRub, 4);
+      fxEurUsdInput.value = formatInputNum(rates.eurUsd, 6);
+    };
+
+    const getEffectiveFxRates = () => {
+      const normalized = normalizeFxRates({
+        usdRub: fxUsdRubInput.value,
+        eurRub: fxEurRubInput.value,
+        eurUsd: fxEurUsdInput.value
+      });
+      return normalized || { usdRub: 1, eurRub: 1, eurUsd: 1 };
+    };
+
+    const saveFxRatesToStorage = () => {
+      const rates = getEffectiveFxRates();
+      localStorage.setItem(FX_STORAGE_KEY, JSON.stringify({ rates, source: "manual", date: null }));
+    };
+
+    const loadFxRatesFromStorage = () => {
+      try {
+        const raw = localStorage.getItem(FX_STORAGE_KEY);
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        const rates = normalizeFxRates(parsed.rates || parsed);
+        if (!rates) return null;
+        return {
+          rates,
+          source: parsed.source || "localStorage",
+          date: parsed.date || null
+        };
+      } catch (err) {
+        return null;
+      }
+    };
+
+    const extractFxPayload = (payload) => {
+      if (!payload) return null;
+      if (Array.isArray(payload.data) && payload.data.length > 0) {
+        const row = payload.data[payload.data.length - 1];
+        const rates = normalizeFxRates(row);
+        if (!rates) return null;
+        return { rates, date: row.date || null };
+      }
+      const rates = normalizeFxRates(payload);
+      if (!rates) return null;
+      return { rates, date: payload.date || null };
+    };
+
+    const loadFxRatesFromDataset = async () => {
+      for (const url of fxDefaultUrls) {
+        try {
+          const response = await fetch(url, { cache: "no-store" });
+          if (!response.ok) continue;
+          const payload = await response.json();
+          const extracted = extractFxPayload(payload);
+          if (extracted) return { ...extracted, source: url };
+        } catch (err) {}
+      }
+      return null;
+    };
+
+    const setFxHint = (meta) => {
+      if (!meta) {
+        fxSourceHint.textContent = "";
+        return;
+      }
+      if (!meta.date) {
+        fxSourceHint.textContent = "";
+        return;
+      }
+      const parts = String(meta.date).split("-");
+      if (parts.length === 3) {
+        const [yyyy, mm, dd] = parts;
+        fxSourceHint.textContent = `Курс на дату: ${dd}.${mm}.${yyyy}`;
+        return;
+      }
+      fxSourceHint.textContent = `Курс на дату: ${meta.date}`;
+    };
+
+    const initializeFxRates = async () => {
+      const fromDataset = await loadFxRatesFromDataset();
+      if (fromDataset) {
+        setFxRatesToInputs(fromDataset.rates);
+        localStorage.setItem(FX_STORAGE_KEY, JSON.stringify(fromDataset));
+        setFxHint(fromDataset);
+        return;
+      }
+
+      const stored = loadFxRatesFromStorage();
+      if (stored) {
+        setFxRatesToInputs(stored.rates);
+        setFxHint(stored);
+        return;
+      }
+
+      setFxHint({ source: "manual", date: null });
+    };
+
+    function convertUnits() {
+      const value = parseNum(document.getElementById("u-value").value);
+      const from = byId[uFrom.value];
+      const to = byId[uTo.value];
+      if (!from || !to || !to.toGJ) return;
+      const result = convertQuantity(value, from, to);
+      document.getElementById("u-result-value").textContent = fmt(result);
+      document.getElementById("u-result-unit").textContent = `${to.label}`;
+    }
+    document.getElementById("u-convert").onclick = convertUnits;
+    document.getElementById("u-value").addEventListener("input", convertUnits);
+    convertUnits();
+
+    const toRub = (value, currency) => {
+      const rates = getEffectiveFxRates();
+      const usdRub = rates.usdRub;
+      const eurRub = rates.eurRub;
+      if (currency === "RUB") return value;
+      if (currency === "USD") return value * usdRub;
+      if (currency === "EUR") return value * eurRub;
+      return value;
+    };
+    const fromRub = (rub, currency) => {
+      const rates = getEffectiveFxRates();
+      const usdRub = rates.usdRub;
+      const eurRub = rates.eurRub;
+      if (currency === "RUB") return rub;
+      if (currency === "USD") return rub / usdRub;
+      if (currency === "EUR") return rub / eurRub;
+      return rub;
+    };
+
+    function renderPriceResults() {
+      const value = parseNum(document.getElementById("p-value").value);
+      const currency = document.getElementById("p-currency").value;
+      const srcUnit = byId[pFrom.value];
+      if (!srcUnit) return;
+      const sourcePriceRub = toRub(value, currency);
+      const box = document.getElementById("p-results");
+      box.innerHTML = "";
+      for (const target of UNITS) {
+        const row = document.createElement("div");
+        row.className = "list-row";
+        const targetPriceRub = convertPricePerUnitRub(sourcePriceRub, srcUnit, target);
+        const targetPrice = fromRub(targetPriceRub, currency);
+        row.innerHTML = `
+          <div><strong>${fmt(targetPrice)}</strong></div>
+          <div class="list-unit">${currency} / ${target.label}</div>
+        `;
+        box.appendChild(row);
+      }
+    }
+    document.getElementById("p-value").addEventListener("input", renderPriceResults);
+    document.getElementById("p-currency").addEventListener("change", renderPriceResults);
+    fxUsdRubInput.addEventListener("input", () => {
+      saveFxRatesToStorage();
+      setFxHint({ source: "manual", date: null });
+      renderPriceResults();
+    });
+    fxEurRubInput.addEventListener("input", () => {
+      saveFxRatesToStorage();
+      setFxHint({ source: "manual", date: null });
+      renderPriceResults();
+    });
+    fxEurUsdInput.addEventListener("input", () => {
+      saveFxRatesToStorage();
+      setFxHint({ source: "manual", date: null });
+      renderPriceResults();
+    });
+
+    (async () => {
+      await initializeFxRates();
+      renderPriceResults();
+    })();
+  </script>
+</body>
+</html>
